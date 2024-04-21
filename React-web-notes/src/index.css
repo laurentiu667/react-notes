@@ -12,6 +12,7 @@
   --font-grotesk: "Space Grotesk", sans-serif;
   color-scheme: dark;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 * {
@@ -146,8 +147,24 @@ body{
   height: 500px;
   position: absolute;
   top: 60px;
-  left: 100px;
+  left:-50px;
   filter: blur(300px); /* Adds a blur effect */
   z-index: -1;
   
+}
+
+.container-card:nth-child(1){
+  background-color: aqua;
+}
+.container-card:nth-child(2){
+  background-color: red;
+}
+.container-card:nth-child(3){
+
+}
+.container-card:nth-child(4){
+
+}
+.card{
+  height: 600px;
 }

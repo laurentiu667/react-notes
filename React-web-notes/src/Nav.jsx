@@ -14,7 +14,7 @@ const Nav = () => {
                 </div>
             </div>
 
-            <ul className=" list-nav">
+            <ul className=" list-nav sm:hidden md:flex">
                 <li className=" border border-n-6 p-1 ">
                     <a href="/">Home</a>
                 </li>

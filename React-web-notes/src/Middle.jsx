@@ -1,7 +1,7 @@
 import Blob from "./Blob";
 const Middle = () => {
     return (
-        <div className=" middleflex grid grid-cols-1 md:grid-cols-2 md:h-96 px-6 lg:mb-32">
+        <div className=" middleflex grid grid-cols-1 md:grid-cols-2 md:h-96 px-6 lg:mb-32 sm: pt-16">
             <div className="text-info-middle flex flex-col content-center justify-center gap-5 md:mx-8 lg:mx-10">
                 <h1 className="text-2xl">Episode 1</h1>
                 <h2>Le commencement</h2>
@@ -16,7 +16,7 @@ const Middle = () => {
             </div>
 
             <div className="image-info relative">
-                <Blob />
+                <Blob  />
             </div>
         </div>
     );
