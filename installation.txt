@@ -1,0 +1,8 @@
+https://tailwindcss.com/docs/guides/vite
+
+npm install react-router-dom :
+La commande npm install react-router-dom sert à installer la bibliothèque React Router DOM dans un projet Node.js. React Router DOM est une bibliothèque JavaScript utilisée avec React pour la gestion des routes et de la navigation dans une application web. Elle permet de définir des routes et d'effectuer des transitions entre différentes vues ou pages dans une application React.
+
+Lorsque vous exécutez npm install react-router-dom, npm télécharge et installe cette bibliothèque dans le dossier node_modules de votre projet, et elle devient ainsi disponible pour être importée et utilisée dans votre code.
+
+Notez que dans votre question, il semble y avoir une petite erreur de syntaxe : il faut utiliser npm install react-router-dom (sans le =) pour installer correctement React Router DOM.
