@@ -16,9 +16,10 @@ const Middle = () => {
             </div>
 
             <div className="image-info relative">
-                <Blob  />
+                <Blob className="blob" style={{ top: '-200px', left: '-100px' }}/>
             </div>
         </div>
+       
     );
 };
 

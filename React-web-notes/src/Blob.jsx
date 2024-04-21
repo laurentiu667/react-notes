@@ -1,14 +1,10 @@
-const Blob = () => {
+
+const Blob = ({ className, style }) => {
     return (
-        <div className="blob ">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    fill="#8A3FFC"  
-                    d="M44.4,-43.9C54.5,-34.3,57.4,-17.2,59,1.6C60.5,20.3,60.7,40.6,50.6,51C40.6,61.4,20.3,61.8,2.9,58.9C-14.4,56,-28.8,49.6,-42.7,39.2C-56.6,28.8,-69.9,14.4,-68.6,1.3C-67.3,-11.8,-51.3,-23.6,-37.5,-33.2C-23.6,-42.7,-11.8,-50,2.7,-52.7C17.2,-55.4,34.3,-53.4,44.4,-43.9Z"
-                    transform="translate(100 100)"
-                />
-            </svg>
+        <div className={`blob ${className}`} style={style}>
+            
         </div>
     );
 };
+
 export default Blob;
